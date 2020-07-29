@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/armanp79.github.io/static/css/main.666868ba.chunk.css",
+    "main.js": "/armanp79.github.io/static/js/main.87851d6b.chunk.js",
+    "main.js.map": "/armanp79.github.io/static/js/main.87851d6b.chunk.js.map",
+    "runtime-main.js": "/armanp79.github.io/static/js/runtime-main.cf2c8a4c.js",
+    "runtime-main.js.map": "/armanp79.github.io/static/js/runtime-main.cf2c8a4c.js.map",
+    "static/css/2.e4346227.chunk.css": "/armanp79.github.io/static/css/2.e4346227.chunk.css",
+    "static/js/2.01d2b664.chunk.js": "/armanp79.github.io/static/js/2.01d2b664.chunk.js",
+    "static/js/2.01d2b664.chunk.js.map": "/armanp79.github.io/static/js/2.01d2b664.chunk.js.map",
+    "index.html": "/armanp79.github.io/index.html",
+    "precache-manifest.b072e5d65a14b141b5c5682ebb8f0f7d.js": "/armanp79.github.io/precache-manifest.b072e5d65a14b141b5c5682ebb8f0f7d.js",
+    "service-worker.js": "/armanp79.github.io/service-worker.js",
+    "static/css/2.e4346227.chunk.css.map": "/armanp79.github.io/static/css/2.e4346227.chunk.css.map",
+    "static/css/main.666868ba.chunk.css.map": "/armanp79.github.io/static/css/main.666868ba.chunk.css.map",
+    "static/js/2.01d2b664.chunk.js.LICENSE.txt": "/armanp79.github.io/static/js/2.01d2b664.chunk.js.LICENSE.txt",
+    "static/media/a1.jpg": "/armanp79.github.io/static/media/a1.cbcd938a.jpg",
+    "static/media/a2.png": "/armanp79.github.io/static/media/a2.e2e8e697.png",
+    "static/media/a3.png": "/armanp79.github.io/static/media/a3.394e9f0b.png",
+    "static/media/fsae.jpg": "/armanp79.github.io/static/media/fsae.228fafc9.jpg",
+    "static/media/ski.jpg": "/armanp79.github.io/static/media/ski.5cca1131.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf2c8a4c.js",
+    "static/css/2.e4346227.chunk.css",
+    "static/js/2.01d2b664.chunk.js",
+    "static/css/main.666868ba.chunk.css",
+    "static/js/main.87851d6b.chunk.js"
+  ]
+}
