@@ -38,8 +38,8 @@ class Resume extends Component {
                         <Education 
                             startYear={2020}
                             endYear={2021}
-                            schoolName='University of California, Berkeley'
-                            schoolDescription={<h6>FinTech Bootcamp</h6>}
+                            schoolName='Hack Reactor'
+                            schoolDescription={<h6>Software Engineering Bootcamp</h6>}
                         />
 
                         <Education 
