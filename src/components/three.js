@@ -1,14 +1,13 @@
 import React, {Component} from 'react';
-import {Grid, Cell} from 'react-mdl';
 import * as THREE from 'three';
+
 import AsciiEffect from 'three-asciieffect';
 import TrackballControls from 'three-trackballcontrols';
 
-let camera, controls, scene, renderer, effect;
-class Landing extends Component {
+export default class Three extends Component {
     componentDidMount(){
-        // let camera, controls, scene, renderer, effect;
-        console.log('mount')
+        let camera, controls, scene, renderer, effect;
+        
         let sphere, plane;
         
         const start = Date.now();
@@ -45,6 +44,7 @@ class Landing extends Component {
         
             renderer = new THREE.WebGLRenderer();
             renderer.setSize( window.innerWidth, window.innerHeight );
+            console.log(AsciiEffect)
             effect = new AsciiEffect( renderer, ' .:-+*=%@#', { invert: true } );
             effect.setSize( window.innerWidth, window.innerHeight );
             effect.domElement.style.color = 'white';
@@ -97,42 +97,8 @@ class Landing extends Component {
         
         }
     }
-    componentWillUnmount(){
-        console.log('unmount')
-        document.body.removeChild( effect.domElement );
-
-    }
-    render () {
-        return(
-                
-                /*<Grid className = "landing-grid">
-                    <Cell col= {12}>*/
-                        <div className="banner-text">
-                            <h1>Arman Pithawala</h1>
-                            <p>
-                                Hello! I am a software engineer interested in Distributed Systems, Data Science, and Cybersecurity.
-                                This site is my portfolio where I display projects I've worked on as a well as a blog where I write about topics that interest me.
-                            </p>  
-                            <div className="social-links">
-                                {/* LinkedIn */}
-                                <a style={{margin: '5px 70px'}} href="https://www.linkedin.com/in/arman-p-406754b4/" rel="noopener noreferrer" target = "_blank">
-                                    <i className="fa fa-linkedin-square" aria-hidden="true" />
-                                </a>
-
-                                {/* Github */}
-                                <a style={{margin: '5px 70px'}}href="https://github.com/armanp79" rel="noopener noreferrer" target = "_blank">
-                                    <i className="fa fa-github-square" aria-hidden="true" />
-                                </a>
-                            
-                            </div>
-                        </div>
-                
-                            
-                   /* </Cell>
-                </Grid>*/
-            
-        )
+    render(){
+        return <div />
     }
 }
 
-export default Landing;

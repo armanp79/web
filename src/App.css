@@ -1,15 +1,15 @@
 .header-color {
-  background: #8360c3;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: #8360c3;  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #101010 !important;
 }
 
 .landing-grid {
-  background: #8360c3;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+  /* background: #8360c3;  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #101010;
   text-align:center;
   position: fixed;
   top: 0;
@@ -18,23 +18,28 @@ background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, F
   height: 100%;
 }
 
+
 .avatar-img {
-  height: 250px;
+  height: 450px;
   padding-top: 5em;
 }
 
 .banner-text {
-  background-color: black;
+  background-color: #303030;
   opacity: .8;
   width: 55%;
   margin: auto;
   border-radius: 10px;
+  margin-top: 105px;
+  padding: 10px;
 }
 
 .banner-text h1{
-  font-size: 66px;
+  font-size: 55px;
   font-weight: bold;
   color: white;
+  margin-bottom: 0px;
+  text-align: center;
 }
 
 .banner-text hr{
@@ -51,9 +56,9 @@ background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, F
 
 .social-links {
   display: flex;
-  justify-content: space-between;
-  width: 50%;
+  justify-content: center;
   margin: auto;
+  margin-top: 15px;
 }
 
 .social-links i {
@@ -62,7 +67,8 @@ background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, F
 }
 /* Projects Page */
 .projects-grid{
-  display: flex;
+  display: grid;
+  grid-gap: 90px;
 }
 
 /* Contact Page */
@@ -140,6 +146,7 @@ background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, F
   text-align: left;
   font-family: 'Oxygen',sans-serif;
   color: #000;
+  /* font-size: 45px; */
 }
 
 .about-images {

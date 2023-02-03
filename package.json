@@ -2,24 +2,33 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://armanp79.github.io/web",
+  "homepage": "https://armanp79.github.io/web",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "particles.js": "^2.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-mdl": "^2.1.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "three": "^0.149.0",
+    "three-addons": "^1.2.0",
+    "three-asciieffect": "^1.0.1",
+    "three-dat.gui": "^2.0.7",
+    "three-orbitcontrols": "^2.110.3",
+    "three-stats": "^1.0.1",
+    "three-trackballcontrols": "^0.9.0",
+    "threejs-ply-loader": "^2.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

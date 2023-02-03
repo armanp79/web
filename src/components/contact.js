@@ -17,12 +17,6 @@ class Contact extends Component {
                         style={{height:'250px'}}
                         />
 
-                        <p style={{width: '75%', margin: 'auto', paddingTop:'1em'}}>
-                        Hi, I’m Arman Pithawala. I’m an incoming senior studying Computer Science and Business Administration at UC Irvine. 
-                        My career interests lie in exploring new technologies and how they can impact businesses. 
-                        I love working with a plethora of different technologies, including React (what this site is built with), NodeJS, Machine Learning, Swift, and BlockChain. 
-                        I already have experience on several teams working as a software engineering intern and then as a blockchain development intern.
-                        </p>
                         
                     </Cell>
 

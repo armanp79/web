@@ -9,7 +9,7 @@ class About extends Component {
     render () {
         return(
             <div>
-                <div className = "about-images">
+                {/* <div className = "about-images">
                     <img 
                         src={fsae}
                         style={{height:'250px', paddingLeft:'5em'}}
@@ -22,24 +22,39 @@ class About extends Component {
                     />
 
                 
-                </div>
+                </div> */}
             
-            <hr style= {{borderTop:'3px solid #A9A9A9', width: '85%', margin:'auto'}} />
+            {/* <hr style= {{borderTop:'3px solid #A9A9A9', width: '85%', margin:'auto'}} /> */}
             
-            <div className="about-text">    
+            <div style={{width: '90%'}} className="about-text">    
                 <br />
-                <p>Hey there!</p>
-                <p>My name is Arman Pithawala, and I’m a senior studying Business Administration and Computer Science at the University of California, Irvine in Southern California! Here's a little bit about who I am and what I like to do : </p>
-                
-                <p>I love music. Over the past few years I have taught myself to play the piano and the guitar and am currently learning to play the violin. During the summer of 2020, I revived my woodworking skills to handcraft my own guitar.</p>
-                <p>I love to solve problems. Whether it’s finding the most elegant way to write a line of code or figuring out which chord fits best into a progression, I love the challenge of finding a way and discovering solutions.  As long as there’s a problem to solve or a challenge to puzzle over, it’s bound to be something I love! </p>
-                <p>I love building things. Especially cars. During my time in college I was a part of the SAE project which is a club in which a team of students design an electric race car for competitions.</p>
-                <p>I love the outdoors. I love to go camping and partake in fun outdoor sports like mountain biking, surfing, hiking, snowboarding, dirtbiking, and skateboarding.</p>
-                <p>I like to keep myself busy; over the course of my college years, I’ve been a part of numerous clubs including, Formula SAE, the Hedge Fund Society, and the Undergraduate Finance Association. In my free time, I enjoy learning about new and innovative technologies and coding projects that I have a personal interest in. </p>
-                <p>My passion is split between finance and computer science and I hope to find myself at the intersection of both fields during my career. I am fascinated by FinTech and love learning about new and developing technologies such as blockchains, mobile payments, and the future of tech in the stock market. </p>
-                <p>This site is host to a variety of things professional and personal; you can learn more about who I am, why I love what I study, or stay updated on the projects I am working on. You can contact me via e-mail, phone, or through LinkedIn.</p>
-                
-                <p>Have a great day!</p>
+                <div style={{display:'flex'}}>
+                    <div style={{width:'60%'}}>
+                        <p style={{fontSize:"20px", lineHeight:"30px"}}>Hey there!</p>
+                        <p style={{fontSize:"20px", lineHeight:"30px"}}>Here's a little bit about who I am and what I like to do : </p>
+                        
+                        <p style={{fontSize:"20px", lineHeight:"30px"}}>I love music. Over the past few years I have taught myself to play the piano and the guitar and am currently learning to play the violin. During the summer of 2020, I revived my woodworking skills to handcraft my own guitar.</p>
+                        <p style={{fontSize:"20px", lineHeight:"30px"}}>I love to solve problems. Whether it’s finding the most elegant way to write a line of code or figuring out which chord fits best into a progression, I love the challenge of finding a way and discovering solutions.  As long as there’s a problem to solve or a challenge to puzzle over, it’s bound to be something I love! </p>
+                        <p style={{fontSize:"20px", lineHeight:"30px"}}>I love building things. Especially cars. During my time in college I was a part of the SAE project which is a club in which a team of students design an electric race car for competitions.</p>
+                    </div>
+                    <img
+                        src={fsae}
+                        style={{height:'250px', padding:'5em'}}
+                    />
+                </div>
+
+                <div style={{display:'flex'}}>
+                    <img 
+                        src={ski}
+                        style={{height:'250px', padding:'5em'}}
+                    />
+                    <div style={{width:'60%'}}>
+                        <p style={{fontSize:"20px", lineHeight:"30px"}}>I love the outdoors. I love to go camping and partake in fun outdoor sports like mountain biking, surfing, hiking, snowboarding, dirtbiking, and skateboarding.</p>
+                        <p style={{fontSize:"20px", lineHeight:"30px"}}>I like to keep myself busy; over the course of my college years, I’ve been a part of numerous clubs including, Formula SAE, the Hedge Fund Society, and the Undergraduate Finance Association. In my free time, I enjoy learning about new and innovative technologies and coding projects that I have a personal interest in. </p>
+                        <p style={{fontSize:"20px", lineHeight:"30px"}}>My passion is split between finance and computer science and I hope to find myself at the intersection of both fields during my career. I am fascinated by FinTech and love learning about new and developing technologies including web 3.0, mobile payments, and the future of tech in the stock market. </p>
+                        <p style={{fontSize:"20px", lineHeight:"30px"}}>This site is host to a variety of things professional and personal; you can learn more about who I am, why I love what I study, or stay updated on the projects I am working on. You can contact me via e-mail, phone, or through LinkedIn.</p>
+                    </div>
+                </div>
                 
             </div> 
             

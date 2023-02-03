@@ -6,7 +6,7 @@ import Contact from './contact'
 import About from './aboutme'
 import Projects from './projects'
 import Resume from './resume'
-
+import Three from './three'
 
 
 const Main = () => (
@@ -15,7 +15,7 @@ const Main = () => (
         <Route path ="/aboutme" component={About} />
         <Route path ="/contact" component={Contact} />
         <Route path ="/projects" component={Projects} />
-        <Route path ="/resume" component={Resume} />
+        <Route path ="/resume" component={Three} />
     </Switch>
 )
 
