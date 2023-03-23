@@ -111,7 +111,7 @@ class Landing extends Component {
                             <h1>Arman Pithawala</h1>
                             <p>
                                 Hello! I am a software engineer interested in Distributed Systems, Data Science, and Cybersecurity.
-                                This site is my portfolio where I display projects I've worked on as a well as a blog where I write about topics that interest me.
+                                This site is my portfolio where I display projects I've worked on.
                             </p>  
                             <div className="social-links">
                                 {/* LinkedIn */}
