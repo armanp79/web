@@ -1,10 +1,12 @@
 import React, {Component} from 'react';
 import {Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, Button, CardText, CardMenu, IconButton} from 'react-mdl';
+import reactLogo from "../images/react.png";
 
 class Projects extends Component {
     constructor (props) {
         super(props);
         this.state = {activeTab:0}
+        this.reactLogoURL = "https://res.cloudinary.com/practicaldev/image/fetch/s--qo_Wp38Z--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/e0nl7ziy1la7bpwj7rsp.png"
     } 
 
     toggleCategories () {
@@ -17,7 +19,7 @@ class Projects extends Component {
                         {/* Project 1 */}
                         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                             <CardTitle style={{color: '#fff', height: '176px', background:
-                            'url(https://reactjs.org/logo-og.png) center / cover'}}>Trivia Web App</CardTitle>
+                            `url(${this.reactLogoURL}) center / cover`}}>Trivia Web App</CardTitle>
                             <CardText>An application that quizzes you with basic trivia questions</CardText>
                             <CardActions border>
                                 <Button colored href="https://github.com/armanp79/trivia-personal" rel="noopener noreferrer" target = "_blank">Github</Button>
@@ -32,7 +34,7 @@ class Projects extends Component {
                         {/* Project 2 */}
                         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                             <CardTitle style={{color: '#fff', height: '176px', background:
-                            'url(https://reactjs.org/logo-og.png) center / cover'}}>Music Visualizer</CardTitle>
+                            `url(${this.reactLogoURL}) center / cover`}}>Music Visualizer</CardTitle>
                             <CardText>An animation that moves with the rhythm of music</CardText>
                             <CardActions border>
                                 <Button colored href="https://github.com/armanp79/music-visualize" rel="noopener noreferrer" target = "_blank">Github</Button>
@@ -47,7 +49,7 @@ class Projects extends Component {
                         {/* Project 3 */}
                         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                             <CardTitle style={{color: '#fff', height: '176px', background:
-                            'url(https://reactjs.org/logo-og.png) center / cover'}}>Particle Animation</CardTitle>
+                            `url(${this.reactLogoURL}) center / cover`}}>Particle Animation</CardTitle>
                             <CardText>A music visualizer with particle animation using a 2D WebGL renderer from PixiJS </CardText>
                             <CardActions border>
                                 <Button colored href="https://github.com/armanp79/particle_animation" rel="noopener noreferrer" target = "_blank">Github</Button>
@@ -63,7 +65,7 @@ class Projects extends Component {
                      {/* Project 4 */}
                      <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background:
-                        'url(https://reactjs.org/logo-og.png) center / cover'}}>Airbnb Frontend Design</CardTitle>
+                        `url(${this.reactLogoURL}) center / cover`}}>Airbnb Frontend Design</CardTitle>
                         <CardText>Collaborated with a team to recreate the frontend design of an Airbnb listing. The goal was to mimic Airbnb's design to gain frontend and css experience</CardText>
                         <CardActions border>
                             <Button colored href="https://github.com/LovelaceFEC" rel="noopener noreferrer" target = "_blank">Github</Button>
@@ -80,7 +82,7 @@ class Projects extends Component {
                      {/* Project 5 */}
                      <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background:
-                        'url(https://reactjs.org/logo-og.png) center / cover'}}>Linq</CardTitle>
+                        `url(${this.reactLogoURL}) center / cover`}}>Linq</CardTitle>
                         <CardText> A web application (still under development) that combines asset management with asset sales and autioning for used construction equipment </CardText>
                         <CardActions border>
                             <Button colored href="https://www.insurancelinq.ca" rel="noopener noreferrer" target = "_blank">insurancelinq.ca</Button>
